@@ -10,6 +10,10 @@ Visibility is stored in two places. The N-Panel list writes to the current scene
 inside the .blend file and each project keeps its own sidebar layout. The list in Preferences
 writes to the add-on preferences and applies to every file you open.
 
+## Demo
+
+<img src="media/demo.webp" width="360" alt="Hiding and unhiding N-Panel tabs in the 3D Viewport sidebar">
+
 ## Features
 
 - Toggle any View3D sidebar tab on or off without disabling the add-on that owns it
