@@ -1,0 +1,36 @@
+# ──────────────────────────────────────────────────────────────
+# Blender Extension Manifest
+# ──────────────────────────────────────────────────────────────
+
+schema_version = "1.0.0"
+
+# Required fields
+id = "Addon_HideTabs"
+version = "1.0.0"
+name = "Hide N-Panel Tabs"
+type = "add-on"
+maintainer = "Kursad K"
+blender_version_min = "4.2.0"
+license = ["SPDX:GPL-3.0-or-later"]
+
+tagline = "Show or hide individual tabs in the View3D sidebar"
+
+# Optional fields
+website = "https://github.com/kursad-k/HideTabs"
+tags = ["User Interface"]
+
+# Optional: supported platforms (omit = all)
+# platforms = ["windows-x64", "macos-arm64", "linux-x64"]
+
+# Optional: permissions
+# [permissions]
+# files = "Read/write tab visibility preferences to disk"
+
+# Optional: build settings
+[build]
+paths_exclude_pattern = [
+  "__pycache__/",
+  "/.git/",
+  "*.zip",
+  "*.pyc"
+]
